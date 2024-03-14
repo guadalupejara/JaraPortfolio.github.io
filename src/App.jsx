@@ -1,8 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import TopNavBar from './Components/NavBar/TopNavBar';
+import React from "react"
 
 function App() {
   return (
+<React.Fragment>
+<TopNavBar/>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +23,7 @@ function App() {
         </a>
       </header>
     </div>
+    </React.Fragment>
   );
 }
 
