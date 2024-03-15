@@ -10,7 +10,10 @@
 .navbar-text-color, a:visited {
   color:rgb(247, 234, 217)
 }
-
+.navbar-text {
+  font-family:'Courier New', Courier, monospace;
+  font-size:large;
+}
 a:hover, button:hover {
 background-color: rgb(195,118,34);
 opacity: 0.75;
