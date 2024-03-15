@@ -3,5 +3,31 @@
     --bs-scroll-height: 100px;
   }
 
+.navbar-bg-color {
+  background-color: rgb(10, 10, 10);
+}
   
+.navbar-text-color, a:visited {
+  color:rgb(247, 234, 217)
+}
+
+a:hover, button:hover {
+background-color: rgb(195,118,34);
+opacity: 0.75;
+}
+
+.navbar-img {
+width:45px;
+height: 45px;
+
+}
   
+.icon-anchor-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-anchor-container .navbar-img {
+  width: 30px; 
+  height: 30px; 
+}
