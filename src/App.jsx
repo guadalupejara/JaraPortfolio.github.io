@@ -1,29 +1,22 @@
-import logo from './logo.svg';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import TopNavBar from './Components/NavBar/TopNavBar';
-import React from "react"
+import PDFViewer from './Components/Common/PDFViewr';
 
 function App() {
   return (
-<React.Fragment>
-<TopNavBar/>
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-    </React.Fragment>
+    <React.Fragment>
+    <Router>
+      <TopNavBar />
+      <div className="App">
+        <Routes>
+          <Route path="/pdf-viewer" element={<PDFViewer />} />
+        </Routes>
+      </div> 
+    </Router>
+  </React.Fragment>
+   
   );
 }
 
