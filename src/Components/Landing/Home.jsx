@@ -1,15 +1,19 @@
 import React from "react";
 import "./home.css";
 import Typewriter from "../Common/TypeWriter";
+import MovingSprites from "./MovingSprites";
 
 const Home = () => {
-  const strings = ["Curious & Grounded UX Researcher", "Horror Game Enthusiest", "Experienced Ethnographer","Software Engineer"];
+  const strings = ["Curious & Grounded UX Researcher", "Horror Game Enthusiest","Software Engineer"];
   return (
     <React.Fragment>
      <div className="home-text-color home-text">
      <div className="container text-center mt-5">
   <div className="row align-items-center">
     <div className="col-4">
+      <div>
+        <MovingSprites/>
+      </div>
     <div>
      I am a <Typewriter strings={strings} />
     </div>
