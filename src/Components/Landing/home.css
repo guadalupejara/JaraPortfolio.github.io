@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(10, 10, 10);
+  }
+  .home-text-color{
+    color:rgb(247, 234, 217)
+  }
+
+  .home-text {
+    font-family:'Courier New', Courier, monospace;
+    font-size:large;
+  }
+
+  .hello {
+    font-size: 100px;
+  }
+
+  .name {
+    font-size: 45px;
+  }
