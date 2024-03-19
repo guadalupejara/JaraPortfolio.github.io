@@ -12,7 +12,7 @@ function TopNavBar() {
   return (
     <React.Fragment>
      <nav className="navbar navbar-expand-lg navbar-bg-color">
-  <div className="container-fluid">
+  <div className="container-fluid border-bottom border-opacity-10">
     <a className="navbar-brand navbar-text-color navbar-text" href="/home">Guadalupe Jara</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -39,8 +39,8 @@ function TopNavBar() {
         </li>
       </ul>
       <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn border-light navbar-text-color navbar-text" type="submit">Search</button>
+        <input className="form-control me-2 mb-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button className="btn border-light mb-2 navbar-text-color navbar-text" type="submit">Search</button>
       </form>
     </div>
   </div>
