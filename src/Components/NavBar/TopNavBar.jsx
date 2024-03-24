@@ -29,7 +29,7 @@ function TopNavBar() {
         <li className="nav-item">
         <div className="icon-anchor-container">
         <img className="navbar-img" src={git} alt="Git" />
-          <a className="nav-link navbar-text-color navbar-text" target="_blank" rel="noreferrer" href="https://github.com/lupe0614">Git</a>
+          <a className="nav-link navbar-text-color navbar-text" target="_blank" rel="noreferrer" href="https://github.com/guadalupejara">Git</a>
           </div>
         </li>
         <li className="nav-item">

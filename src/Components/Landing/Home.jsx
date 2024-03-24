@@ -18,8 +18,11 @@ const Home = () => {
      I am a <Typewriter strings={strings} />
     </div>
     </div>
-    <div className="col-8">
-      <h1 className="hello mb-3">Hello!</h1>
+    <div className="col-2">
+
+    </div>
+    <div className="col-6">
+      <h1 className="hello mb-5">Hello!</h1>
       <h2 className="name mb-5"> My name is Guadalupe Jara</h2>
       <p>Always a scholar, eager to learn & grow while perfecting 
         my craft through problem identification & creative solution 
