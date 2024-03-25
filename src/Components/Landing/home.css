@@ -1,6 +1,9 @@
 body {
     background-color: rgb(10, 10, 10);
   }
+  .container {
+max-width: fit-content;
+  }
   .home-text-color{
     color:rgb(247, 234, 217)
   }
@@ -17,3 +20,14 @@ body {
   .name {
     font-size: 45px;
   }
+
+  #skills {
+    margin-top: 300px; 
+  }
+
+  .imageContainer {
+    background-image: url('../../Assests/keyboard.jpg');
+    background-size: cover;
+  background-position: center;
+  }
+
