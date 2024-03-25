@@ -1,0 +1,10 @@
+.imageDetails {
+    height: 200px;
+    width:200px;
+    margin:5px;
+    box-shadow: 4px 3px 8px 1px #283141;
+}
+
+.textFont{
+    font-size: 40px;
+}
