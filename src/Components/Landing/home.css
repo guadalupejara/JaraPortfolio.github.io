@@ -3,6 +3,7 @@ body {
   }
   .container {
 max-width: fit-content;
+
   }
   .home-text-color{
     color:rgb(247, 234, 217)
@@ -15,6 +16,7 @@ max-width: fit-content;
 
   .hello {
     font-size: 100px;
+    margin-bottom: 15px;
   }
 
   .name {
