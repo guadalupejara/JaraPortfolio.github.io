@@ -3,6 +3,7 @@ import "./home.css";
 import Typewriter from "../Common/TypeWriter";
 import MovingSprites from "./MovingSprites";
 import Skills from "./skills/Skills";
+import Projects from "./projects/projects";
 
 const Home = () => {
   const strings = ["Curious & Grounded UX Researcher", "Horror Game Enthusiest","Software Engineer"];
@@ -40,6 +41,9 @@ const Home = () => {
           <Skills/>
         </div>
       </div>
+      <div id="projects">
+          <Projects/>
+        </div>
      </div>
     </React.Fragment>
   );
