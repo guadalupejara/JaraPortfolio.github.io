@@ -8,6 +8,8 @@ import figma from "../../../Assests/techIcon/Figma.png"
 import xd from "../../../Assests/techIcon/XD.png"
 import javascript from "../../../Assests/techIcon/JS.png"
 import bootstrap from "../../../Assests/techIcon/Bootstrap.png"
+import git from "../../../Assests/techIcon/git.png"
+import postman from "../../../Assests/techIcon/postman.png"
 
 function Skills() {
 const skillArrays = [
@@ -42,7 +44,15 @@ const skillArrays = [
 {
     name:"Figma",
     pic: figma
-}
+},
+{
+    name:"Git",
+    pic: git
+},
+{
+    name:"Postman",
+    pic: postman
+},
 ]
 
 const[array, setArray]= useState({
@@ -73,9 +83,11 @@ useEffect(() => {
   return (
 <React.Fragment>
     <div className="container">
-    <div className="row">
-        <h1><b>Skills</b></h1>
+        <div className="spacing">
+    <div className="row justify-content-center">
+        <h1 className="header"><b>Skills</b></h1>
 {array.mappedSkills}
+</div>
 </div>
 </div>
 </React.Fragment>

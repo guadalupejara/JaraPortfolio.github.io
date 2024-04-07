@@ -1,0 +1,24 @@
+.gradientBox{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.009), #008060);
+}
+
+.box{
+    margin-left: 200px; 
+    margin-right: 200px; 
+}
+
+.text{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.button{
+    background-color: #008060;
+    border-color: #008060;
+}
+.button:hover {
+    background-color: #005040; 
+    border-color: #005040;
+}
+.tab-text-color{
+    color:rgb(247, 234, 217);
+  }

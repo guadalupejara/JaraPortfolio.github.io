@@ -1,0 +1,11 @@
+.videoSize{
+
+    height: 400px;
+    width: 400px;
+}
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
