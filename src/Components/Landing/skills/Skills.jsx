@@ -83,11 +83,9 @@ useEffect(() => {
   return (
 <React.Fragment>
     <div className="container">
-        <div className="spacing">
     <div className="row justify-content-center">
-        <h1 className="header"><b>Skills</b></h1>
+        <h1 className="header mb-3"><b>Skills</b></h1>
 {array.mappedSkills}
-</div>
 </div>
 </div>
 </React.Fragment>

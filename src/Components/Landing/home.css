@@ -23,9 +23,9 @@ max-width: fit-content;
     font-size: 45px;
   }
 
-  #skills {
-    margin-top: 300px; 
-  }
+  .space {
+    margin-bottom: 200px; 
+  } 
 
   .imageContainer {
     background-image: url('../../Assests/keyboard.jpg');

@@ -12,7 +12,7 @@ const Home = () => {
      <div className="home-text-color home-text">
      <div className="container text-center mt-5">
   <div className="row align-items-center">
-    <div className="col-4">
+    <div className="col-4 space">
       <div>
         <MovingSprites/>
       </div>
@@ -36,7 +36,7 @@ const Home = () => {
     </div>
   </div>
   </div>
-  <div className="container imageContainer mt-5">
+  <div className="container imageContainer">
         <div id="skills">
           <Skills/>
         </div>

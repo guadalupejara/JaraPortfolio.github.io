@@ -4,8 +4,10 @@ function Projects (){
 
     return(
         <React.Fragment>
-            <h1>Projects</h1>
+            <div className='mt-5'>
+            <h1 className='header mb-5'>Projects</h1>
             <SimpleTab/>
+            </div>
         </React.Fragment>
     )
 }
